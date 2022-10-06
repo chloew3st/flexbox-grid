@@ -105,14 +105,16 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: #fff;
+    background-color: #ffd9b3;
     height: 100%;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Alumni Sans', sans-serif;
     padding: 2em;
     font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
     height: 100%;
 }
 
@@ -131,9 +133,10 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
-    line-height: 1.5em;
-    font-size: 1.6em;
-    background-color: #f16059;
+    line-height: 1.3em;
+    font-size: 1.75em;
+    background-color: #00cccc;
+    padding: 10px 20px;
     height: 300px;
     width: 30%;
 }
