@@ -113,7 +113,7 @@ body {
     font-family: 'Alumni Sans', sans-serif;
     padding: 2em;
     font-size: 1.25em;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     height: 100%;
 }
@@ -121,8 +121,38 @@ body {
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     display: flex;
+    flex-flow: row wrap;
     font-weight: 700;
     justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 5em;
+    font-style: italic;
+    background-color: #00cccc;
+    height: 100px;
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5em;
+    background-color: #00cccc;
+    height: 100px;
+    width: 100%;
+    padding: 50px 50px;
 }
 
 .div-1,
@@ -132,13 +162,27 @@ body {
     align-items: center;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     line-height: 1.3em;
     font-size: 1.75em;
     background-color: #00cccc;
     padding: 10px 20px;
     height: 300px;
     width: 30%;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1em;
+    font-style: italic;
+    background-color: #00cccc;
+    height: 100px;
+    width: 100%;
+    padding: 50px 50px;
 }
 
 
